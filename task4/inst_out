@@ -1,0 +1,14 @@
+
+Before validation, my courses looked like:
+[MU-007] (2 Units) Class Voice - Study 4.0 hours per week.
+[CS-030] (4 Units) DS & A in Java - Study 160.0 hours per week.
+[CS-195] (4 Units) Senior Seminar - Study 8.0 hours per week.
+[MA-015] (3 Units) Discrete Math - Study 6.0 hours per week.
+
+After validation, my courses now look like:
+[??-007] (2 Units) Class Voice - Study 4.0 hours per week.
+[CS-030] (4 Units) DS & A in Java - Study 8.0 hours per week.
+[CS-195] (4 Units) Senior Seminar - Study 8.0 hours per week.
+[MA-015] (4 Units) Discrete Math - Study 6.0 hours per week.
+
+Courses that had validation issues were: [??-007, CS-030, MA-015] from above.

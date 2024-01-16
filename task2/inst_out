@@ -1,0 +1,47 @@
+
+`notGrowingStudent` has the following attributes:
+    First Name: Fancy
+     Last Name: Smartypants
+     ID Number: 1234
+           GPA: 4.5
+   Class Level: SOPHOMORE
+
+`fastGrowingStudent` has the following attributes:
+    First Name: Always
+     Last Name: Trymybesty
+     ID Number: 567891
+           GPA: 2.7324
+   Class Level: FRESHMAN
+
+Here's the current roster:
+[ID #001234] Class level: SOPHOMORE | GPA: 4.5000 | Name: Smartypants, Fancy
+[ID #567891] Class level:  FRESHMAN | GPA: 2.7324 | Name: Trymybesty, Always
+
+Oh, looks like `notGrowingStudent` just failed a class!
+Oh, looks like `fastGrowingStudent` just aced two classes!
+
+Here's the updated roster:
+[ID #001234] Class level: SOPHOMORE | GPA: 4.1500 | Name: Smartypants, Fancy
+[ID #567891] Class level:  FRESHMAN | GPA: 3.0500 | Name: Trymybesty, Always
+
+Let's move everyone up a year!
+
+Here's the updated roster:
+[ID #001234] Class level:    JUNIOR | GPA: 3.9900 | Name: Smartypants, Fancy
+[ID #567891] Class level: SOPHOMORE | GPA: 3.1000 | Name: Trymybesty, Always
+
+Let's move everyone up another year!
+
+Here's the updated roster:
+[ID #001234] Class level:    SENIOR | GPA: 3.3200 | Name: Smartypants, Fancy
+[ID #567891] Class level:    JUNIOR | GPA: 3.3400 | Name: Trymybesty, Always
+
+What happens if we try to set a bad GPA?
+
+java.lang.IllegalArgumentException: GPA must be between 0.0 and 4.5
+	at task2.Student.setGPA(Student.java:71)
+	at task2.TaskTwoDriver.main(TaskTwoDriver.java:80)
+
+Don't panic! This error message (kind of) is expected.
+
+No AssertionErrors now? Good job, you're almost done with Task 2 now!

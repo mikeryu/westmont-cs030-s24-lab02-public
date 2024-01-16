@@ -1,0 +1,8 @@
+Could not open this_file_does_not_exist!
+Could not read task3/badfile.csv
+[ID #002345] Class level:   ALUMNUS | GPA: 3.7500 | Name: Ryu, Mike
+[ID #002346] Class level:    JUNIOR | GPA: 4.0000 | Name: Ryu, Jessica
+[ID #002347] Class level:  FRESHMAN | GPA: 3.6000 | Name: Ryu, Autumn
+task2.Student ID #002345 has a GPA of 3.7500.
+task2.Student ID #002346 has a GPA of 4.0000.
+task2.Student ID #002347 has a GPA of 3.6000.
